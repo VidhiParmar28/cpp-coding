@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int DistanceInKm;
+    cout<<"Enter the distance in kilometers :"<<endl;
+    cin>>DistanceInKm; 
+     
+    float DistanceInMiles = DistanceInKm * 0.621371;
+    cout<<"Distance in miles is : "<<DistanceInMiles<<endl;     
+
+
+
+    return 0;
+}
